@@ -44,15 +44,14 @@ Steps:
 3. Read the current full diff: `gh pr diff PR_NUMBER`
    Read specific files if needed for context.
 
-4. For each previous feedback item, classify it as:
+4. For each previous feedback item, internally classify it as:
    RESOLVED / STILL OPEN / PARTIALLY RESOLVED / NO LONGER APPLICABLE
 
-5. Post ONE comment via `gh pr comment PR_NUMBER`:
+5. Display only the items that are marked as STILL OPEN and any new observations. Do NOT display RESOLVED items. Keep the description of the open items between 1-2 sentences, as the user can see the actual long description in the original Feedback.
+
+6. Post ONE comment via `gh pr comment PR_NUMBER`. Keep strict to the following template:
 
    ## Follow-up Review
-
-   ### Resolved
-   - [items fixed, with brief explanation]
 
    ### Still Open
    - [items still needing attention]
