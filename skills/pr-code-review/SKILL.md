@@ -30,6 +30,9 @@ Focus on: correctness, null reference risks, SQL injection (string-concatenated
 queries), performance (UI thread blocking, N+1 queries), VB.NET and C#.NET best practices.
 Be constructive. If the PR looks good, say so. Do NOT approve or request changes.
 
+### What to ignore
+- Floating versions in shared workflows. In the majority of cases, this is intended and is not an indicator of bad code. 
+
 ### When new commits are pushed to an existing PR:
 Your job: check whether previous code review feedback has been addressed.
 
